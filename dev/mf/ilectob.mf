@@ -1,0 +1,9 @@
+% Interlecto Blackletter font
+
+input ilectobu; % uppercase letters in ASCII and Latin-1
+input ilectobl; % lowercase letters in ASCII and Latin-1
+input ilectobd; % numerals
+input ilectobp; % punctuation in ASCII and General Punctuation
+input ilectobt; % typographic marks in ASCII and General Punctuation
+input ilectoba; % accent symbols
+bye.

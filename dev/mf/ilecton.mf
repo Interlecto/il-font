@@ -1,0 +1,9 @@
+% Interlecto Sans font
+
+mode_setup; font_setup;
+input ilectonu; % uppercase letters in ASCII and Latin-1
+input ilectonl; % lowercase letters in ASCII and Latin-1
+input ilectond; % numerals
+input ilectonp; % punctuation in ASCII and General Punctuation
+input ilectont; % typographic marks in ASCII and General Punctuation
+input ilectona; % accent symbols

@@ -1,0 +1,10 @@
+% Interlecto Script font
+
+mode_setup; font_setup;
+input ilectosu; % uppercase letters in ASCII and Latin-1
+input ilectosl; % lowercase letters in ASCII and Latin-1
+input ilectosd; % numerals
+input ilectosp; % punctuation in ASCII and General Punctuation
+input ilectost; % typographic marks in ASCII and General Punctuation
+input ilectosa; % accent symbols
+bye.

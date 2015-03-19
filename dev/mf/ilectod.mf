@@ -1,0 +1,8 @@
+% Interlecto Dings font
+
+input ui;        % user interface
+input technical; % technical
+input dingbats;  % dingbats
+input logos;     % service logos
+input arrows;    % arrows
+bye.

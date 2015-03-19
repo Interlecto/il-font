@@ -1,0 +1,9 @@
+% Interlecto Uncial font
+
+input ilectouu; % uppercase letters in ASCII and Latin-1
+input ilectoul; % lowercase letters in ASCII and Latin-1
+input ilectoud; % numerals
+input ilectoup; % punctuation in ASCII and General Punctuation
+input ilectout; % typographic marks in ASCII and General Punctuation
+input ilectoua; % accent symbols
+bye.

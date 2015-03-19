@@ -1,0 +1,10 @@
+% Interlecto Mono font
+
+mode_setup; font_setup;
+input ilectomu; % uppercase letters in ASCII and Latin-1
+input ilectoml; % lowercase letters in ASCII and Latin-1
+input ilectomd; % numerals
+input ilectomp; % punctuation in ASCII and General Punctuation
+input ilectomt; % typographic marks in ASCII and General Punctuation
+input ilectoma; % accent symbols
+bye.

@@ -1,0 +1,10 @@
+% Interlecto Italic font
+
+mode_setup; font_setup;
+input ilectoiu; % uppercase letters in ASCII and Latin-1
+input ilectoil; % lowercase letters in ASCII and Latin-1
+input ilectoid; % numerals
+input ilectop;  % punctuation in ASCII and General Punctuation
+input ilectoit; % typographic marks in ASCII and General Punctuation
+input ilectoa;  % accent symbols
+bye.
