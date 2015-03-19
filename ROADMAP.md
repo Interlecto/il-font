@@ -94,6 +94,10 @@ The complete initial set include:
     ilectoM  ilectoMB  ilectoMc  ilectoMcB
     ilectoMo ilectoMoB ilectoMoc ilectoMocB
     ilectoS  ilectoSB  ilectoU   ilectoB
+    
+![Font shape samples](https://github.com/Interlecto/il-font/blob/master/styles.png)
+
+(these shapes are not actually Interlecto Font shapes, they only exemplify the general shape of some of the letters. The fonts used here are: Arial, Times New Roman, Times New Roman Italic, Courier Monospace, Allura, Deutch Uncial and Fette Haenel Fraktur)
 
 
 Glyphs
