@@ -152,4 +152,23 @@ Including:
  3. Miscellaneous Symbols and Pictographs `U+1F300 -- U+1F5FF`
  3. Transport and Map Symbols `U+1F680 -- U+1F6FF`
 
-Not all of those icons will
+Not all of those icons will be set, only those needed for the Interlecto UI
+and those deemed interesting.
+
+Any Interlecto Icon who has a Unicode equivalent will be encoded in its
+respective Unicode slot.
+
+Development
+======
+
+The fonts will be originally defined in Metafont, which allow for
+the generation of font families.
+
+Fonts will be converted to SVG fonts by using automatic tools
+either available or to be developed. Any developed tool will be
+published in this repository.
+Probably Metapost will be used to convert Metafont fonts into
+postscript outlines and those outlines will be translated into SVG.
+
+SVG font will be converted to TTF and WOFF fonts using FontForge
+or some other similar tool.
