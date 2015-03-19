@@ -8,69 +8,93 @@ The Textual fonts is designed for displaying the Interlecto.net website
 and for the vanilla UI of the Interlecto CMS.
 
 The font will cover the following basic shapes:
- * Gothic: sans-serif, unslanted
- * Oblique: sans-serif, slanted
- * Roman: serif, unslanted
- * Italic: serif, slanted
- * Script: cursive
- * Mono: monospace
+ * Sans: block, sans-serif, proportional, straight
+ * Roman: block, serif, proportional, straight
+ * Italic: block, serif, proportional, slanted
+ * Mono: block, serif, monospace, straight
+ * Script: cursive, --, proportional, slanted
+ * Uncial: cursive/block, serif, proportional, straight
+ * Blackletter: cursive/block, serif, proportional, straight
 
-Gothic, Oblique, Roman, Italic and Mono will have each:
- * common lowercase variant, normal weight
- * small caps variant, normal weight
- * common lowercase variant, bold weight
- * small caps variant, bold weight
- 
-This gives a total of 21 combinations.
+The font will also provide slanted versions of Sans, Roman and Mono
+and an unslanted version of Italic.
+
+Also it will be provided bold versions of Sans, Roman, Italic, Mono, and
+Script, as well as small-caps versions of Sans, Roman, Italic and Mono.
+
+This gives: Sans (8 styles), Roman (8 styles), Italic (8 styles),
+Mono (8 styles), Script (2 styles), Uncial and Blackletter (1 style each):
+a total of 36 font combinations.
+
+Eventually a whole family could be created from each shape including
+different weight points (beyond normal/bold).
 
 Naming conventions:
 -------
 
-The long name will have two variants:
+Each font will be called _“Interlecto”_ followed by the shape form.
+The slanted versions of Sans, Roman and Mono will be followed by the
+word _“Oblique”_ while the unslanted version of Italic by _“Unslanted”_.
+Small Caps versions will be marked as _“Small-Caps”_ and the non-regular
+weights will be marked by the weight number or by _“Bold”_ (given that
+the initial set will only have regular and bold, no numbers will be displayed.)
 
->Sans is variant for Gothic
+The _“Sans Oblique”_ will be called simply _“Oblique”_.
 
->Sans Italic and Sans Oblique are variants for Oblique
+The 36 common fonts will be:
 
->Serif is variant for Roman
-
->Serif Italic is variant for Italic
-
-So, the font will have the name “Interlecto” followed by the shape name
-(or alias), followed by “Small Caps” if it is a small caps variant,
-and followed by “Bold” if it is bold shape.
-
- 1. Interlecto Gothic
- 1. Interlecto Gothic Bold
- 1. Interlecto Gothic Small Caps
- 1. Interlecto Gothic Small Caps Bold
+ 1. Interlecto Sans
+ 1. Interlecto Sans Bold
+ 1. Interlecto Sans Small-Caps
+ 1. Interlecto Sans Small-Caps Bold
  2. Interlecto Oblique
  2. Interlecto Oblique Bold
- 2. Interlecto Oblique Small Caps
- 2. Interlecto Oblique Small Caps Bold
+ 2. Interlecto Oblique Small-Caps
+ 2. Interlecto Oblique Small-Caps Bold
  3. Interlecto Roman
  3. Interlecto Roman Bold
  3. Interlecto Roman Small Caps
  3. Interlecto Roman Small Caps Bold
+ 3. Interlecto Roman Oblique
+ 3. Interlecto Roman Oblique Bold
+ 3. Interlecto Roman Oblique Small Caps
+ 3. Interlecto Roman Oblique Small Caps Bold
  4. Interlecto Italic
  4. Interlecto Italic Bold
  4. Interlecto Italic Small Caps
  4. Interlecto Italic Small Caps Bold
+ 4. Interlecto Italic Unslanted
+ 4. Interlecto Italic Unslanted Bold
+ 4. Interlecto Italic Unslanted Small Caps
+ 4. Interlecto Italic Unslanted Small Caps Bold
  5. Interlecto Mono
  5. Interlecto Mono Bold
  5. Interlecto Mono Small Caps
  5. Interlecto Mono Small Caps Bold
+ 5. Interlecto Mono Oblique
+ 5. Interlecto Mono Oblique Bold
+ 5. Interlecto Mono Oblique Small Caps
+ 5. Interlecto Mono Oblique Small Caps Bold
  6. Interlecto Script
+ 6. Interlecto Script Bold
+ 7. Interlecto Uncial
+ 8. Interlecto Blackletter
  
-The filename short names will use: `ilecto` followed by `G`, `O`, `R`, `I`, `M` or `S`
-describing the shape, followed by `c` if small caps variant and by `B` for bold.
+The filename short names will use: `ilecto` followed by a shape/slant
+descriptor: `N`, `O`, `R`, `Ro`, `I`, `Iu`, `M`, `Mo`, `S`, `U`, `B`.
+The Small-Caps versions will add a `c` and the Bold versions a `B`.
+The complete initial set include:
 
-    ilectoG ilectoGB ilectoGc ilectoGcB
-    ilectoO ilectoOB ilectoOc ilectoOcB
-    ilectoR ilectoRB ilectoRc ilectoRcB
-    ilectoI ilectoIB ilectoIc ilectoIcB
-    ilectoM ilectoMB ilectoMc ilectoMcB
-    ilectoS
+    ilectoN  ilectoNB  ilectoNc  ilectoNcB
+    ilectoO  ilectoOB  ilectoOc  ilectoOcB
+    ilectoR  ilectoRB  ilectoRc  ilectoRcB
+    ilectoRo ilectoRoB ilectoRoc ilectoRocB
+    ilectoI  ilectoIB  ilectoIc  ilectoIcB
+    ilectoIu ilectoIuB ilectoIuc ilectoIucB
+    ilectoM  ilectoMB  ilectoMc  ilectoMcB
+    ilectoMo ilectoMoB ilectoMoc ilectoMocB
+    ilectoS  ilectoSB  ilectoU   ilectoB
+
 
 Glyphs
 ------
@@ -98,7 +122,7 @@ plus:
  2. Number Forms `U+02150 -- U+0218F`
  2. Latin Extended Additional `U+01E00 -- U+01EFF`
  2. Latin Extended C  `U+02C60 -- U+02C7F`
-
+ 2. Latin Extended D  `U+0A720 -- U+0A7FF`
 
 
 Icon Fonts
@@ -119,6 +143,9 @@ Including:
  3. Miscellaneous Symbols `U+02600 -- U+026FF`
  3. Dingbats `U+02700 -- U+0u27BF`
  3. Suplemental Arrows-B `U+02900 -- U+0297F`
- 3. Miscellaneous Symbols and Arrows  (u2B00 -- U+02BFF`
+ 3. Miscellaneous Symbols and Arrows  `U+2B00 -- U+02BFF`
  3. Private User Area `U+0E000 -- U+0F8FF`
- 3. Miscellaneous Symbols and Pictographs `U+1F30 -- U+1F5FF`
+ 3. Miscellaneous Symbols and Pictographs `U+1F300 -- U+1F5FF`
+ 3. Transport and Map Symbols `U+1F680 -- U+1F6FF`
+
+Not all of those icons will
